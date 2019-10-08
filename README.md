@@ -44,6 +44,6 @@ Classes:
 
 ## Limitations
 
-* Deviant derivatives: supported.
+* Debian derivatives: supported.
 * Redhat derivatives: supported.
 * Other: unsupported.
