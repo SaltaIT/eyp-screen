@@ -1,4 +1,9 @@
-class screen ($ensure = 'installed') inherits screen::params {
+class screen(
+              $ensure          = 'installed',
+              $vbell           = true,
+              $vbell_msg       = ' Wuff ---- Wuff!! ',
+              $startup_message = false,
+            ) inherits screen::params {
 
   if($ensure!='installed')
   {

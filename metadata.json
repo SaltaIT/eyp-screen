@@ -1,6 +1,6 @@
 {
   "name": "eyp-screen",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "eyp",
   "summary": "basic screen installation",
   "license": "Apache-2.0",
@@ -34,7 +34,7 @@
     },
     {
       "operatingsystem": "Debian",
-      "operatingsystemrelease": [ "6", "7" ]
+      "operatingsystemrelease": [ "6", "7", "8", "9", "10" ]
     },
     {
       "operatingsystem": "Ubuntu",

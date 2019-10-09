@@ -6,15 +6,13 @@
 # Flaws of termcap and standard settings are done here.
 #
 
-#startup_message off
-
 #defflow on # will force screen to process ^S/^Q
 
 deflogin on
 #autodetach off
 
-vbell on
-vbell_msg "   Wuff  ----  Wuff!!  "
+vbell <%= scope.function_bool2onoff([@vbell]) %>
+vbell_msg "<%= @vbell_msg %>"
 
 # all termcap entries are now duplicated as terminfo entries.
 # only difference should be the slightly modified syntax, and check for
@@ -96,7 +94,7 @@ bind } history
 # password ODSJQf.4IJN7E    # "1234"
 
 # don't display the copyright page
-startup_message off
+startup_message <%= scope.function_bool2onoff([@startup_message]) %>
 
 # emulate .logout message
 pow_detach_msg "Screen session of $LOGNAME $:cr:$:nl:ended."

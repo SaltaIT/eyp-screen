@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.7
+
+* Added some variables
+
 ## 0.1.6
 
 * added RHEL 8 support
