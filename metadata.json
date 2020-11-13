@@ -1,7 +1,7 @@
 {
   "name": "eyp-screen",
   "version": "0.1.7",
-  "author": "eyp",
+  "author": "Jordi Prats",
   "summary": "basic screen installation",
   "license": "Apache-2.0",
   "source": "https://github.com/SaltaIT/eyp-screen",
